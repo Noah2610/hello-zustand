@@ -3,9 +3,9 @@ import { Action, State } from "../store";
 import { userReducer, UserAction } from "./user";
 import { workersReducer, WorkersAction } from "./workers";
 
-export { UserAction, WorkersAction };
-export { UserState } from "./user";
-export { WorkersState } from "./workers";
+export type { UserAction, WorkersAction };
+export type { UserState } from "./user";
+export type { WorkersState } from "./workers";
 
 export const reducer = (baseState: State, action: Action): State =>
     produce(baseState, (state) => {
