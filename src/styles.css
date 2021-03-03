@@ -1,14 +1,14 @@
 .App {
-  font-family: sans-serif;
-  text-align: center;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .error {
-  display: block;
-  border-radius: 4px;
-  padding: 16px 8px;
-  margin-bottom: 8px;
-  box-shadow: 0 0 4px 1px black;
-  font-size: 18px;
-  background-color: #ff6666;
+    display: block;
+    border-radius: 4px;
+    padding: 16px 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 4px 1px black;
+    font-size: 18px;
+    background-color: #ff6666;
 }
